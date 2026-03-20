@@ -1,0 +1,56 @@
+[
+  {
+    "id": "greeting",
+    "question": "Hello / greetings",
+    "keywords": ["hello", "hi", "hey", "good morning", "good afternoon", "good evening"],
+    "answer": "Hello! Welcome to Wise support. How can I help you with your transfer today?"
+  },
+  {
+    "id": "farewell",
+    "question": "Goodbye / end conversation",
+    "keywords": ["no", "no thank you", "no thanks", "nothing", "that's all", "all good", "nope", "not really", "i'm good", "im good", "nothing else", "that is all", "done", "all done", "bye", "goodbye", "leave it", "thank you", "thanks", "okay", "ok", "great"],
+    "answer": "Thank you for contacting Wise support. Have a wonderful day. Goodbye!"
+  },
+  {
+    "id": "check_status",
+    "question": "How do I check my transfer's status?",
+    "keywords": ["check", "status", "transfer status", "track", "tracking", "where", "progress", "money", "my money"],
+    "answer": "You can check your transfer's status by logging into your Wise account and going to the Transfers or Activity section. Each transfer shows its current stage: Pending means we are waiting for your payment, Processing means we have received your money and are converting it, and Completed means the money has been sent to your recipient's bank. You can also set up email or push notifications to get updates at each stage of your transfer."
+  },
+  {
+    "id": "when_arrive",
+    "question": "When will my money arrive?",
+    "keywords": ["when", "arrive", "arrival", "receive", "how long", "time", "how soon", "delivery", "reach", "days"],
+    "answer": "The arrival time depends on the currency and payment method you used. Most transfers arrive within 1 to 2 business days, but some can take up to 4 to 5 business days. You can see the estimated delivery time on your transfer details page in the Wise app or website. Business days exclude weekends and public holidays. If your transfer is taking longer than the estimated time, it may be due to additional checks or delays at the recipient's bank."
+  },
+  {
+    "id": "complete_not_arrived",
+    "question": "Why does it say my transfer is complete when the money hasn't arrived yet?",
+    "keywords": ["complete", "completed", "not arrived", "not received", "marked complete", "says complete", "shows complete", "done but", "still waiting"],
+    "answer": "When Wise marks a transfer as Complete, it means we have successfully sent the money to your recipient's bank. However, it can still take 0 to 2 business days for the recipient's bank to process the funds and make them available in the account. This processing time is outside Wise's control. If the money still hasn't arrived after 2 business days of the completion date, we recommend contacting your recipient's bank first. If they cannot locate the funds, please reach out to Wise support with your transfer details."
+  },
+  {
+    "id": "taking_longer",
+    "question": "Why is my transfer taking longer than the estimate?",
+    "keywords": ["delay", "delayed", "late", "longer", "slow", "taking longer", "not on time", "still processing", "stuck", "pending too long", "waiting too long"],
+    "answer": "There are several reasons a transfer might take longer than expected: additional security or compliance checks may be required, your bank may have delayed sending the funds to Wise, the currency conversion took longer than usual, or the recipient's bank requires extra processing time. You can check the current status in your Wise account. If your transfer is significantly overdue, please contact Wise support through the app or website and provide your transfer ID for assistance."
+  },
+  {
+    "id": "proof_of_payment",
+    "question": "What is a proof of payment?",
+    "keywords": ["proof", "proof of payment", "receipt", "confirmation", "document", "certificate", "download"],
+    "answer": "A proof of payment is an official document from Wise confirming that a transfer has been made. It includes details such as the transfer amount, the date it was sent, the sender's and recipient's details, and the transfer reference number. You can download your proof of payment from the transfer details page in your Wise account once the transfer is completed. This document is useful for legal, tax, or accounting purposes."
+  },
+  {
+    "id": "banking_partner_reference",
+    "question": "What is a banking partner reference number?",
+    "keywords": ["banking partner", "reference number", "bank reference", "partner reference", "reference code", "transaction reference", "reference"],
+    "answer": "A banking partner reference number is a unique identifier assigned to your transfer by the bank or financial institution that Wise uses to process the transaction. This number can be used by the recipient's bank to locate and identify the incoming funds. You can find this reference number on your transfer details page in the Wise app or website. If the recipient's bank is asking for a reference number to trace your payment, this is the number you should provide to them."
+  },
+  {
+    "id": "contact_support",
+    "question": "How do I contact Wise support?",
+    "keywords": ["contact", "support", "help", "agent", "human", "talk", "call", "chat", "reach", "speak"],
+    "answer": "You can contact Wise support through the Help section in the Wise app or website. Go to wise.com and click on Help at the bottom of the page. You can use the live chat feature, send an email, or find answers in the Help Centre. For urgent issues, live chat is the fastest option and is available 24 hours a day."
+  }
+]
